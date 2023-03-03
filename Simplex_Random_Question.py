@@ -163,6 +163,6 @@ while (scn<number):
                 sinif[scn].append(list(opt.x))
                 scn +=1
             #SendEmail(person, problem)
-Sinif_Soru_Yaz.WriteQuestion(sinif, "C://Academic//Dersler//OR-1//Sinavlar//2021//ButunlemeSorular.xls")
+Sinif_Soru_Yaz.WriteQuestion(sinif, "C://Academic//temp.xls")
 for i in sinif:
     print (i)
